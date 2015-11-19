@@ -4,8 +4,10 @@
 
 It also provides a lot of sub-applications based on those datas as :
 
-- OSRM : A routing service
-- Nominatim : A search util
+* OSRM : A routing service
+  * [Install OSRM on a server](./osrm.md)
+* Nominatim : A search util
+  * [Install Nominatim on a server](./nominatim.md)
 
 ## Copy OSM datas on a server
 
