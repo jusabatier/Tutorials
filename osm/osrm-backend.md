@@ -1,6 +1,6 @@
 # Install OSRM-backend on a server
 
-## Building OSRM
+## Building OSRM-backend
 
 First we install the dependencies : 
 ```
@@ -26,7 +26,7 @@ make
 make install
 ```
 
-## Running OSRM
+## Running OSRM-backend
 
 In order to run OSRM, you need to feed it with OSM data, so you need to [download them on the server](./README.md) or use NFS to mount them from another server.
 
@@ -59,7 +59,7 @@ And to allow OSRM reload them while running via Shared Memory we also add :
 /opt/osrm-backend/build/osrm-datastore /opt/osm_data/auvergne.osrm
 ```
 
-### Add OSRM as startup service
+### Add OSRM-backend as startup service
 
 In order to run OSRM as a service, we create a **/etc/init.d/osrm** file which contains : 
 ```
